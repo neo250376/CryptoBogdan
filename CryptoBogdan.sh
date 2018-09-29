@@ -85,7 +85,7 @@ do
 done' > mine.sh
 sudo chmod +x mine.sh
 tmux new-session -d -s cryptogone './mine.sh'
-
+cd
 
 # Clone into Bogdan's miner and locally compile
 
