@@ -108,6 +108,7 @@ wallet="65AkkjBs2arwbikYVDh3B57aeehzpVp9Xw69tgewj8y8stx9FjajNhxR5Y3D9vzjYGgPGzuX
 cpuintensity="100"
 gpuintensitycblocks="0"
 gpuintensitygblocks="0"
+cpuoptimization="AVX2"
 
 
 # set this to false if you do not want miner to auto relaunch after crash
@@ -116,7 +117,7 @@ relaunch_miner_on_crash="true"
 while :
 do
     # -u means use all device, you can also use -d to specify list of devices (ex: -d 0,2,5)
-    ./ariominer --mode miner --pool "$pool" --wallet "$wallet" --name "$worker" --cpu-intensity "$cpuintensity" --gpu-intensity-cblocks "$gpuintensitycblocks" --gpu-intensity-gblocks "$gpuintensitygblocks"  
+    ./ariominer --mode miner --pool "$pool" --wallet "$wallet" --name "$worker" --cpu-intensity "$cpuintensity" --gpu-intensity-cblocks "$gpuintensitycblocks" --gpu-intensity-gblocks "$gpuintensitygblocks" --force-cpu-optimisaztion "$cpuoptimization" 
     
     if [ "$relaunch_miner_on_crash" = "true" ]; then
         echo "miner crashed, relaunching in 5 seconds ..."
