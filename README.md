@@ -8,4 +8,5 @@ Simply copy and paste the script into your GCP instance automation box
 Access the miners with the following -
 
 sudo tmux attach -t bogdan
+
 sudo tmux attach -t cryptogone
