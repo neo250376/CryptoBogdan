@@ -117,7 +117,7 @@ relaunch_miner_on_crash="true"
 while :
 do
     # -u means use all device, you can also use -d to specify list of devices (ex: -d 0,2,5)
-    ./ariominer --mode miner --pool "$pool" --wallet "$wallet" --name "$worker" --cpu-intensity "$cpuintensity" --gpu-intensity-cblocks "$gpuintensitycblocks" --gpu-intensity-gblocks "$gpuintensitygblocks" --force-cpu-optimisaztion "$cpuoptimization" 
+    ./ariominer --mode miner --pool "$pool" --wallet "$wallet" --name "$worker" --cpu-intensity "$cpuintensity" --gpu-intensity-cblocks "$gpuintensitycblocks" --gpu-intensity-gblocks "$gpuintensitygblocks" --force-cpu-optimization "$cpuoptimization" 
     
     if [ "$relaunch_miner_on_crash" = "true" ]; then
         echo "miner crashed, relaunching in 5 seconds ..."
