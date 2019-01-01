@@ -13,4 +13,4 @@ sudo tmux attach -t cryptogone
 
 To exit tmux and keep the miner running in the background, press CTRL+B then "d" on it's own. This will return you back to the command line interface prompt and is then safe to exit the VPS console.
 
-If you wish to donate towards my research and testing please feel free to donate ARO to the following address - 65AkkjBs2arwbikYVDh3B57aeehzpVp9Xw69tgewj8y8stx9FjajNhxR5Y3D9vzjYGgPGzuXbf7xSKn1C2i2DxFY
+If you wish to donate towards my research and testing please feel free to donate ARO to the following address - 4cAKS6DE81sT3PfNcQBQwPa2NsfGRSP6WGqiQepXPjfTjZhrAWa77uHPb4nQbppetMTAEt9GiTjX9bHpC589FX3E
